@@ -13,7 +13,7 @@ license-file = "LICENSE"
 name = "deepl-openapi"
 readme = "README.md"
 repository = "https://github.com/StrayLittlePunk/deepl"
-version = "2.7.0"
+version = "1.0.0"
 
 [dependencies]
 serde        = "^1.0"
