@@ -1,0 +1,18 @@
+[package]
+authors     = [ "OpenAPI Generator team and contributors" ]
+description = "The DeepL API provides programmatic access to DeepL’s machine translation technology."
+name        = "deepl"
+version     = "2.7.0"
+# Override this license by providing a License Object in the OpenAPI.
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+serde        = "^1.0"
+serde_derive = "^1.0"
+serde_json   = "^1.0"
+url          = "^2.2"
+uuid         = { version = "^1.0", features = [ "serde" ] }
+    [dependencies.reqwest]
+    features = [ "json", "multipart" ]
+    version  = "^0.11"
