@@ -1,11 +1,17 @@
 [package]
-authors     = [ "OpenAPI Generator team and contributors" ]
+authors = [
+    "OpenAPI Generator team and contributors",
+    "StrayLittlePunk <zerco@foxmail.com>",
+]
 description = "The DeepL API provides programmatic access to DeepL’s machine translation technology."
-name        = "deepl"
-version     = "2.7.0"
-# Override this license by providing a License Object in the OpenAPI.
 edition = "2021"
-license = "MIT"
+homepage = "https://docs.rs/deepl-openapi"
+license = "Apache-2.0"
+name = "deepl-openapi"
+readme = "README.md"
+repository = "https://github.com/StrayLittlePunk/deepl"
+version = "2.7.0"
+
 
 [dependencies]
 serde        = "^1.0"
