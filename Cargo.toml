@@ -3,15 +3,17 @@ authors = [
     "OpenAPI Generator team and contributors",
     "StrayLittlePunk <zerco@foxmail.com>",
 ]
+categories = [ "api-bindings" ]
 description = "The DeepL API provides programmatic access to DeepL’s machine translation technology."
 edition = "2021"
 homepage = "https://docs.rs/deepl-openapi"
+keywords = [ "deepl", "openapi", "translate" ]
 license = "Apache-2.0"
+license-file = "LICENSE"
 name = "deepl-openapi"
 readme = "README.md"
 repository = "https://github.com/StrayLittlePunk/deepl"
 version = "2.7.0"
-
 
 [dependencies]
 serde        = "^1.0"

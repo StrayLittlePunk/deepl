@@ -65,7 +65,7 @@ To get access to the crate's generated documentation, use:
 cargo doc --open
 ```
 
-## License
+## [Apache License 2.0](LICENSE)
 
 
 
